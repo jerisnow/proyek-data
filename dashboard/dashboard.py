@@ -24,7 +24,7 @@ orders_df = pd.read_csv('D:/Bangkit Academy 2024/Proyek Analisis Data/submission
 product_category = pd.read_csv('D:/Bangkit Academy 2024/Proyek Analisis Data/submission/data/product_category_name_translation.csv')
 products_df = pd.read_csv('D:/Bangkit Academy 2024/Proyek Analisis Data/submission/data/products_dataset.csv')
 sellers_df = pd.read_csv('D:/Bangkit Academy 2024/Proyek Analisis Data/submission/data/sellers_dataset.csv')
-all_df = pd.read_csv('D:/Bangkit Academy 2024/Proyek Analisis Data/submission/data/all_df.csv')
+all_df = pd.read_csv("https://raw.githubusercontent.com/jerisnow/proyek-data/main/dashboard/all_df.csv")
 
 with st.sidebar:
     # Title
