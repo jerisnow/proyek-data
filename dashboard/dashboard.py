@@ -15,15 +15,15 @@ select_option = st.sidebar.selectbox(
 )
 
 # Load data
-customers_df = pd.read_csv('D:/Bangkit Academy 2024/Proyek Analisis Data/submission/data/customers_dataset.csv')
-geoloc_df = pd.read_csv('D:/Bangkit Academy 2024/Proyek Analisis Data/submission/data/geolocation_dataset.csv')
-order_items = pd.read_csv('D:/Bangkit Academy 2024/Proyek Analisis Data/submission/data/order_items_dataset.csv')
-order_pays = pd.read_csv('D:/Bangkit Academy 2024/Proyek Analisis Data/submission/data/order_payments_dataset.csv')
-order_review = pd.read_csv('D:/Bangkit Academy 2024/Proyek Analisis Data/submission/data/order_reviews_dataset.csv')
-orders_df = pd.read_csv('D:/Bangkit Academy 2024/Proyek Analisis Data/submission/data/orders_dataset.csv')
-product_category = pd.read_csv('D:/Bangkit Academy 2024/Proyek Analisis Data/submission/data/product_category_name_translation.csv')
-products_df = pd.read_csv('D:/Bangkit Academy 2024/Proyek Analisis Data/submission/data/products_dataset.csv')
-sellers_df = pd.read_csv('D:/Bangkit Academy 2024/Proyek Analisis Data/submission/data/sellers_dataset.csv')
+customers_df = pd.read_csv("https://raw.githubusercontent.com/jerisnow/proyek-data/main/data/customers_dataset.csv")
+geoloc_df = pd.read_csv("https://raw.githubusercontent.com/jerisnow/proyek-data/main/data/geolocation_dataset.csv")
+order_items = pd.read_csv("https://raw.githubusercontent.com/jerisnow/proyek-data/main/data/order_items_dataset.csv")
+order_pays = pd.read_csv("https://raw.githubusercontent.com/jerisnow/proyek-data/main/data/order_payments_dataset.csv")
+order_review = pd.read_csv("https://raw.githubusercontent.com/jerisnow/proyek-data/main/data/order_reviews_dataset.csv")
+orders_df = pd.read_csv("https://raw.githubusercontent.com/jerisnow/proyek-data/main/data/orders_dataset.csv")
+product_category = pd.read_csv("https://raw.githubusercontent.com/jerisnow/proyek-data/main/data/product_category_name_translation.csv")
+products_df = pd.read_csv("https://raw.githubusercontent.com/jerisnow/proyek-data/main/data/products_dataset.csv")
+sellers_df = pd.read_csv("https://raw.githubusercontent.com/jerisnow/proyek-data/main/data/sellers_dataset.csv")
 all_df = pd.read_csv("https://raw.githubusercontent.com/jerisnow/proyek-data/main/dashboard/all_df.csv")
 
 with st.sidebar:
